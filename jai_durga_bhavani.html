@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jai Durga Bhavani Tours & Travels | Premium Bangalore–Nepal Bus Service</title>
+<meta name="description" content="Daily premium A/C sleeper bus service between Bangalore and Nepal. Trusted by thousands of Nepali families. Book online, safe travel, 24x7 support.">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --maroon:#6B1023;--maroon-dark:#4a0b18;--maroon-mid:#8a1530;
+  --gold:#D4AF37;--gold-light:#e8c84a;--gold-dim:#a88a20;
+  --ivory:#F7F3EC;--ivory-dark:#ede8df;
+  --navy:#102340;--navy-light:#1a3557;
+  --text:#1a0a0f;--text-muted:#6b5c52;--text-light:#a09080;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:#fff;color:var(--text);overflow-x:hidden}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(16,35,64,0.97);backdrop-filter:blur(10px);border-bottom:1px solid rgba(212,175,55,0.2)}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+.nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0}
+.logo-svg{width:42px;height:42px}
+.logo-text-wrap .en{font-family:'Cinzel',serif;font-size:13px;color:#fff;letter-spacing:0.05em;font-weight:600;line-height:1.3}
+.logo-text-wrap .np{font-family:'Noto Sans Devanagari',sans-serif;font-size:11px;color:var(--gold);line-height:1.3}
+.nav-menu{display:flex;list-style:none;gap:0}
+.nav-menu a{color:rgba(255,255,255,0.75);text-decoration:none;font-size:13px;font-weight:500;padding:8px 13px;border-radius:6px;transition:all 0.2s;letter-spacing:0.02em;display:block}
+.nav-menu a:hover{color:#fff;background:rgba(255,255,255,0.08)}
+.nav-cta-btn{background:var(--gold)!important;color:var(--navy)!important;font-weight:600!important;border-radius:7px!important}
+.nav-cta-btn:hover{background:var(--gold-light)!important}
+.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:6px;background:none;border:none}
+.ham span{width:22px;height:1.5px;background:rgba(255,255,255,0.8);border-radius:2px;display:block}
+.mobile-menu{display:none;position:fixed;top:66px;left:0;right:0;background:rgba(16,35,64,0.98);padding:16px;z-index:199;border-bottom:1px solid rgba(212,175,55,0.15)}
+.mobile-menu.open{display:block}
+.mobile-menu a{display:block;color:rgba(255,255,255,0.8);text-decoration:none;padding:12px 16px;font-size:14px;border-radius:8px;transition:background 0.2s}
+.mobile-menu a:hover{background:rgba(255,255,255,0.08);color:#fff}
+
+/* ── HERO ── */
+.hero{min-height:100vh;position:relative;display:flex;align-items:center;overflow:hidden;background:#0d1825}
+.hero-bg-art{position:absolute;inset:0;pointer-events:none}
+.stars{position:absolute;inset:0}
+.star{position:absolute;background:#fff;border-radius:50%;animation:twinkle 3s infinite alternate}
+@keyframes twinkle{from{opacity:0.2}to{opacity:0.8}}
+.mountain-svg{position:absolute;bottom:0;left:0;right:0;width:100%;height:60%}
+.hero-gradient{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(13,24,37,0.3) 0%,rgba(13,24,37,0.05) 40%,rgba(13,24,37,0.65) 85%,rgba(13,24,37,0.9) 100%)}
+.hero-inner{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:100px 2rem 60px;width:100%}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(212,175,55,0.12);border:1px solid rgba(212,175,55,0.35);border-radius:30px;padding:7px 18px;margin-bottom:28px}
+.hero-badge span{font-size:12px;color:var(--gold);font-weight:600;letter-spacing:0.07em;text-transform:uppercase}
+h1.hero-title{font-family:'Cinzel',serif;font-size:clamp(2.4rem,5.5vw,4.8rem);color:#fff;line-height:1.08;margin-bottom:20px;font-weight:700;text-shadow:0 2px 20px rgba(0,0,0,0.4)}
+h1.hero-title em{font-style:italic;color:var(--gold);font-family:'Playfair Display',serif}
+.hero-sub{font-size:clamp(0.95rem,1.8vw,1.15rem);color:rgba(255,255,255,0.72);margin-bottom:40px;max-width:520px;line-height:1.8;font-weight:300}
+.trust-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px}
+.chip{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.14);border-radius:20px;padding:5px 14px;font-size:12px;color:rgba(255,255,255,0.82);font-weight:500}
+.chip::before{content:'✓';color:var(--gold);font-weight:700;font-size:11px}
+
+/* BOOKING WIDGET */
+.bw{background:#fff;border-radius:18px;padding:28px 28px 24px;max-width:860px;margin-bottom:36px;box-shadow:0 24px 80px rgba(0,0,0,0.35)}
+.bw-title{font-family:'Cinzel',serif;font-size:13px;font-weight:700;color:var(--maroon);letter-spacing:0.09em;text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:10px}
+.bw-title::before{content:'';width:28px;height:2px;background:var(--gold);border-radius:2px;flex-shrink:0}
+.bw-grid{display:grid;grid-template-columns:1fr 1.4fr 1.1fr 0.7fr auto;gap:12px;align-items:end}
+.fg{display:flex;flex-direction:column;gap:5px}
+.fg label{font-size:10.5px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.07em}
+.fg select,.fg input{border:1.5px solid #e5e0d8;border-radius:9px;padding:11px 14px;font-size:14px;font-family:'Inter',sans-serif;color:var(--text);background:#fff;outline:none;transition:border-color 0.2s;cursor:pointer;-webkit-appearance:none}
+.fg select:focus,.fg input:focus{border-color:var(--maroon)}
+.sb{background:var(--maroon);color:#fff;border:none;border-radius:9px;padding:13px 26px;font-size:14px;font-weight:600;font-family:'Inter',sans-serif;cursor:pointer;transition:all 0.2s;white-space:nowrap;letter-spacing:0.03em}
+.sb:hover{background:var(--maroon-dark);transform:translateY(-1px)}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.hbtn{display:inline-flex;align-items:center;gap:9px;border-radius:9px;padding:11px 22px;font-size:14px;font-weight:500;text-decoration:none;transition:all 0.2s;cursor:pointer;border:none;font-family:'Inter',sans-serif}
+.hbtn-call{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.25);color:#fff}
+.hbtn-call:hover{background:rgba(255,255,255,0.18)}
+.hbtn-wa{background:#25D366;color:#fff}
+.hbtn-wa:hover{background:#1cb855}
+
+/* ── SECTIONS ── */
+section{padding:88px 0}
+.container{max-width:1200px;margin:0 auto;padding:0 2rem}
+.s-label{font-size:10.5px;font-weight:700;color:var(--gold-dim);text-transform:uppercase;letter-spacing:0.14em;margin-bottom:10px}
+.s-title{font-family:'Cinzel',serif;font-size:clamp(1.7rem,3vw,2.8rem);color:var(--navy);margin-bottom:14px;font-weight:700;line-height:1.18}
+.s-sub{font-size:1rem;color:var(--text-muted);max-width:520px;line-height:1.85}
+.divider{width:48px;height:3px;background:var(--gold);border-radius:2px;margin:18px 0 28px}
+
+/* ── ROUTES ── */
+.sec-routes{background:var(--ivory)}
+.routes-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:8px}
+.rc{background:#fff;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,0.055);transition:all 0.3s;cursor:pointer}
+.rc:hover{transform:translateY(-5px);box-shadow:0 20px 56px rgba(107,16,35,0.13)}
+.rc-img{height:188px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.rc-img-bg{position:absolute;inset:0}
+.rc-path{position:relative;z-index:1;text-align:center;padding:16px}
+.rc-path .cities{font-family:'Cinzel',serif;font-size:16px;color:#fff;font-weight:600;letter-spacing:0.04em;text-shadow:0 2px 8px rgba(0,0,0,0.4)}
+.rc-path .via{font-size:12px;color:rgba(255,255,255,0.6);margin-top:7px;letter-spacing:0.03em}
+.rc-body{padding:20px 20px 22px}
+.stops{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px}
+.stop{background:var(--ivory);border:1px solid var(--ivory-dark);border-radius:20px;padding:3px 11px;font-size:11.5px;color:var(--text-muted);font-weight:500}
+.rc-foot{display:flex;align-items:center;justify-content:space-between}
+.price{font-family:'Cinzel',serif;font-size:20px;color:var(--maroon);font-weight:700}
+.price sub{font-family:'Inter',sans-serif;font-size:11px;color:var(--text-muted);font-weight:400;vertical-align:middle;margin-left:2px}
+.rc-book{background:var(--maroon);color:#fff;border:none;border-radius:9px;padding:9px 20px;font-size:13px;font-weight:600;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif}
+.rc-book:hover{background:var(--maroon-dark)}
+
+/* ── FLEET ── */
+.fleet-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:24px;margin-top:8px}
+.fc{border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,0.055);transition:all 0.3s}
+.fc:hover{box-shadow:0 14px 48px rgba(107,16,35,0.13);transform:translateY(-4px)}
+.fc-hdr{padding:26px;position:relative;overflow:hidden}
+.fc-badge{position:absolute;top:16px;right:16px;background:var(--gold);color:var(--navy);font-size:10px;font-weight:700;padding:4px 11px;border-radius:20px;letter-spacing:0.06em;text-transform:uppercase}
+.fc-icon{font-size:44px;margin-bottom:14px;display:block}
+.fc-name{font-family:'Cinzel',serif;font-size:19px;color:#fff;font-weight:600;margin-bottom:5px}
+.fc-tag{font-size:12px;color:rgba(255,255,255,0.5)}
+.fc-body{padding:20px;background:#fff}
+.ams{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px}
+.am{background:var(--ivory);border-radius:20px;padding:4px 12px;font-size:11px;color:var(--text-muted);font-weight:500;border:1px solid var(--ivory-dark)}
+.fc-price{font-family:'Cinzel',serif;font-size:23px;color:var(--maroon);font-weight:700}
+.fc-price sub{font-family:'Inter',sans-serif;font-size:11px;color:var(--text-muted);font-weight:400}
+.fc-btn{width:100%;margin-top:14px;background:var(--maroon);color:#fff;border:none;border-radius:9px;padding:11px;font-size:14px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:background 0.2s;letter-spacing:0.02em}
+.fc-btn:hover{background:var(--maroon-dark)}
+
+/* ── SERVICES ── */
+.sec-services{background:var(--ivory)}
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(188px,1fr));gap:18px;margin-top:8px}
+.sv{background:#fff;border-radius:14px;padding:22px 20px;border:1.5px solid transparent;transition:all 0.25s;text-align:center}
+.sv:hover{border-color:rgba(212,175,55,0.45);transform:translateY(-3px);box-shadow:0 8px 32px rgba(107,16,35,0.08)}
+.sv-icon{width:50px;height:50px;background:rgba(107,16,35,0.07);border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:22px}
+.sv-name{font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px}
+.sv-desc{font-size:12px;color:var(--text-muted);line-height:1.65}
+
+/* ── ABOUT ── */
+.sec-about{background:var(--navy)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.about-frame{border-radius:20px;overflow:hidden;background:linear-gradient(145deg,rgba(107,16,35,0.9),rgba(74,11,24,0.95));height:440px;display:flex;align-items:center;justify-content:center;position:relative;border:1px solid rgba(212,175,55,0.15)}
+.about-ornament{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0.08}
+.about-center{position:relative;z-index:1;text-align:center;padding:24px}
+.about-np{font-family:'Noto Sans Devanagari',sans-serif;font-size:38px;color:var(--gold);line-height:1.3;margin-bottom:10px;text-shadow:0 2px 16px rgba(212,175,55,0.3)}
+.about-en{font-family:'Cinzel',serif;font-size:13px;color:rgba(255,255,255,0.5);letter-spacing:0.12em;text-transform:uppercase}
+.stats-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,0.08);border-radius:14px;overflow:hidden;margin-top:22px}
+.st{background:rgba(255,255,255,0.04);padding:20px 10px;text-align:center}
+.st-num{font-family:'Cinzel',serif;font-size:28px;color:var(--gold);font-weight:700}
+.st-lbl{font-size:10.5px;color:rgba(255,255,255,0.42);margin-top:5px;text-transform:uppercase;letter-spacing:0.07em}
+.abt-txt .s-label{color:rgba(212,175,55,0.55)}
+.abt-txt .s-title{color:#fff}
+.abt-txt .s-sub{color:rgba(255,255,255,0.6);max-width:460px}
+.abt-txt .divider{background:var(--gold)}
+.quote-card{background:rgba(255,255,255,0.04);border-left:3px solid var(--gold);border-radius:0 14px 14px 0;padding:20px 24px;margin-top:32px}
+.quote-card p{font-size:14px;color:rgba(255,255,255,0.65);line-height:1.9;font-style:italic}
+.quote-card cite{font-size:11px;color:var(--gold);font-style:normal;display:block;margin-top:10px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase}
+
+/* ── FAQ ── */
+.sec-faq{background:var(--ivory)}
+.faq-wrap{max-width:740px;margin:12px auto 0;display:flex;flex-direction:column;gap:12px}
+.faq-item{background:#fff;border-radius:12px;border:1px solid rgba(0,0,0,0.055);overflow:hidden}
+.faq-q{padding:18px 22px;font-size:15px;font-weight:500;color:var(--navy);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;transition:background 0.2s;user-select:none}
+.faq-q:hover{background:rgba(247,243,236,0.8)}
+.fq-chev{color:var(--gold);font-size:18px;transition:transform 0.3s;flex-shrink:0;line-height:1}
+.faq-q.open .fq-chev{transform:rotate(180deg)}
+.faq-a{font-size:14px;color:var(--text-muted);line-height:1.85;max-height:0;overflow:hidden;transition:all 0.32s;padding:0 22px}
+.faq-a.open{max-height:300px;padding:0 22px 18px}
+
+/* ── CONTACT ── */
+.contact-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:start;margin-top:8px}
+.cc{background:#fff;border-radius:18px;padding:32px;border:1px solid rgba(0,0,0,0.06)}
+.cc h3{font-family:'Cinzel',serif;font-size:16px;color:var(--navy);margin-bottom:26px;font-weight:600}
+.ci{display:flex;gap:16px;margin-bottom:22px;align-items:flex-start}
+.ci-icon{width:42px;height:42px;background:rgba(107,16,35,0.07);border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;margin-top:2px}
+.ci-info strong{display:block;font-size:14px;color:var(--navy);margin-bottom:3px;font-weight:600}
+.ci-info a{color:var(--text-muted);font-size:13px;text-decoration:none}
+.ci-info a:hover{color:var(--maroon)}
+.btn-pair{display:flex;gap:7px;margin-top:9px;flex-wrap:wrap}
+.bsm{padding:6px 15px;border-radius:7px;font-size:12px;font-weight:600;text-decoration:none;border:none;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif;letter-spacing:0.02em}
+.bsm-call{background:var(--maroon);color:#fff}
+.bsm-wa{background:#25D366;color:#fff}
+.bsm:hover{opacity:0.85;transform:translateY(-1px)}
+.map-box{background:linear-gradient(135deg,#ebe7de,#ddd9d0);border-radius:16px;height:200px;display:flex;align-items:center;justify-content:center;margin-top:20px;border:1px solid rgba(0,0,0,0.06)}
+.map-box p{color:var(--text-muted);font-size:13px;text-align:center;line-height:1.8}
+.ff{margin-bottom:14px}
+.ff label{display:block;font-size:10.5px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:6px}
+.ff input,.ff textarea,.ff select{width:100%;border:1.5px solid #e5e0d8;border-radius:9px;padding:11px 14px;font-size:14px;font-family:'Inter',sans-serif;color:var(--text);outline:none;transition:border-color 0.2s;resize:none;background:#fff}
+.ff input:focus,.ff textarea:focus,.ff select:focus{border-color:var(--maroon)}
+.submit-btn{width:100%;background:var(--maroon);color:#fff;border:none;border-radius:9px;padding:13px;font-size:14px;font-weight:600;cursor:pointer;font-family:'Inter',sans-serif;transition:background 0.2s;letter-spacing:0.03em;margin-top:4px}
+.submit-btn:hover{background:var(--maroon-dark)}
+
+/* ── FOOTER ── */
+footer{background:var(--navy);padding:64px 0 32px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px}
+.fb-en{font-family:'Cinzel',serif;font-size:16px;color:#fff;font-weight:600;margin-bottom:4px;letter-spacing:0.04em}
+.fb-np{font-family:'Noto Sans Devanagari',sans-serif;font-size:13px;color:var(--gold);margin-bottom:18px;opacity:0.8}
+.fb-desc{font-size:13px;color:rgba(255,255,255,0.45);line-height:1.85;max-width:255px}
+.fb-tag{font-size:12px;color:var(--gold);margin-top:16px;font-style:italic;opacity:0.7}
+.fc-col h4{font-family:'Cinzel',serif;font-size:11.5px;color:rgba(255,255,255,0.35);text-transform:uppercase;letter-spacing:0.12em;margin-bottom:18px;font-weight:600}
+.fc-col a{display:block;font-size:13px;color:rgba(255,255,255,0.55);text-decoration:none;margin-bottom:11px;transition:color 0.2s}
+.fc-col a:hover{color:var(--gold)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.07);padding-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.footer-bottom p{font-size:12px;color:rgba(255,255,255,0.25)}
+
+/* ── BOOKING MODAL ── */
+.overlay{position:fixed;inset:0;background:rgba(8,16,32,0.88);z-index:300;display:none;overflow-y:auto;padding:80px 16px 32px}
+.overlay.open{display:block}
+.modal{background:#fff;border-radius:22px;max-width:760px;margin:0 auto;overflow:hidden}
+.modal-hdr{background:var(--navy);padding:24px 28px;display:flex;align-items:center;justify-content:space-between}
+.modal-hdr h2{font-family:'Cinzel',serif;font-size:18px;color:#fff;font-weight:600}
+.modal-close{background:none;border:none;color:rgba(255,255,255,0.55);font-size:28px;cursor:pointer;line-height:1;padding:0;transition:color 0.2s}
+.modal-close:hover{color:#fff}
+.modal-body{padding:28px}
+.ptabs{display:flex;border-bottom:2px solid #f0ebe2;margin-bottom:28px;gap:0;overflow-x:auto}
+.ptab{padding:11px 20px;font-size:14px;font-weight:500;color:var(--text-muted);cursor:pointer;border-bottom:2.5px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:all 0.2s}
+.ptab.on{color:var(--maroon);border-bottom-color:var(--maroon)}
+.ptab:hover{color:var(--navy)}
+.result-info{font-size:13px;color:var(--text-muted);margin-bottom:22px}
+.br{border:1.5px solid #eee8e0;border-radius:14px;padding:20px;margin-bottom:16px;transition:border-color 0.2s;cursor:pointer}
+.br:hover,.br.sel{border-color:var(--maroon);background:rgba(107,16,35,0.02)}
+.br-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;gap:16px;flex-wrap:wrap}
+.br-times{display:flex;align-items:center;gap:20px}
+.time-blk .t{font-family:'Cinzel',serif;font-size:22px;color:var(--navy);font-weight:600;line-height:1}
+.time-blk .c{font-size:12px;color:var(--text-muted);margin-top:3px}
+.dur-blk{text-align:center}
+.dur-blk .d{font-size:12px;color:var(--text-muted);margin-bottom:2px}
+.dur-blk .l{font-size:11px;color:var(--text-light);letter-spacing:0.03em}
+.br-price{font-family:'Cinzel',serif;font-size:26px;color:var(--maroon);font-weight:700;text-align:right;flex-shrink:0}
+.br-price sub{font-family:'Inter',sans-serif;font-size:11px;color:var(--text-muted);font-weight:400;display:block;text-align:right}
+.atags{display:flex;gap:5px;flex-wrap:wrap}
+.atag{background:var(--ivory);border-radius:20px;padding:3px 11px;font-size:11px;color:var(--text-muted);border:1px solid var(--ivory-dark)}
+.bnb{width:100%;background:var(--maroon);color:#fff;border:none;border-radius:9px;padding:11px;font-size:13px;font-weight:600;cursor:pointer;margin-top:14px;font-family:'Inter',sans-serif;transition:background 0.2s;letter-spacing:0.02em}
+.bnb:hover{background:var(--maroon-dark)}
+.conf{background:var(--ivory);border-radius:14px;padding:26px;margin-top:20px;display:none}
+.conf h3{font-family:'Cinzel',serif;font-size:16px;color:var(--navy);margin-bottom:22px;font-weight:600}
+.conf-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.conf-foot{display:flex;align-items:center;justify-content:space-between;padding-top:18px;border-top:1px solid #e2ddd6;flex-wrap:wrap;gap:14px}
+.total-amt .lbl{font-size:12px;color:var(--text-muted)}
+.total-amt .num{font-family:'Cinzel',serif;font-size:26px;color:var(--maroon);font-weight:700}
+.succ{text-align:center;padding:44px 24px;display:none}
+.succ-icon{font-size:60px;margin-bottom:18px;display:block}
+.succ h3{font-family:'Cinzel',serif;font-size:24px;color:var(--navy);margin-bottom:8px}
+.succ p{color:var(--text-muted);font-size:14px;margin-bottom:5px;line-height:1.7}
+.succ-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .nav-menu{display:none}
+  .ham{display:flex}
+  .about-grid{grid-template-columns:1fr;gap:40px}
+  .about-frame{height:280px}
+  .contact-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .bw-grid{grid-template-columns:1fr 1fr}
+  .sb{grid-column:1/-1}
+  .conf-grid{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+  .footer-grid{grid-template-columns:1fr}
+  .hero-title{font-size:2.1rem}
+  .br-times{gap:12px}
+  .time-blk .t{font-size:18px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="topnav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#home">
+      <svg class="logo-svg" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="21" cy="21" r="19.5" stroke="#D4AF37" stroke-width="1.2"/>
+        <ellipse cx="21" cy="26" rx="11" ry="5.5" stroke="#D4AF37" stroke-width="1" fill="rgba(212,175,55,0.05)"/>
+        <ellipse cx="21" cy="23.5" rx="7.5" ry="3.5" stroke="#D4AF37" stroke-width="0.7"/>
+        <!-- Trishul -->
+        <line x1="21" y1="6" x2="21" y2="17" stroke="#D4AF37" stroke-width="1.4"/>
+        <line x1="21" y1="6" x2="18.5" y2="9" stroke="#D4AF37" stroke-width="1.2"/>
+        <line x1="21" y1="6" x2="23.5" y2="9" stroke="#D4AF37" stroke-width="1.2"/>
+        <line x1="19" y1="7.5" x2="21" y2="6" stroke="#D4AF37" stroke-width="1"/>
+        <line x1="23" y1="7.5" x2="21" y2="6" stroke="#D4AF37" stroke-width="1"/>
+        <!-- Tilak on lotus centre -->
+        <circle cx="21" cy="19.5" r="2" fill="rgba(212,175,55,0.7)" stroke="#D4AF37" stroke-width="0.6"/>
+        <!-- Mountain silhouette -->
+        <path d="M8 30 Q14 22 21 19.5 Q28 22 34 30" fill="rgba(212,175,55,0.08)" stroke="#D4AF37" stroke-width="0.7"/>
+      </svg>
+      <div class="logo-text-wrap">
+        <div class="en">Jai Durga Bhavani</div>
+        <div class="np">॥ जय दुर्गा भवानी ॥</div>
+      </div>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#routes">Routes</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#" class="nav-cta-btn" onclick="openModal();return false;">Book Now</a></li>
+    </ul>
+    <button class="ham" onclick="toggleMobile()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mmenu">
+  <a href="#home" onclick="closeMobile()">Home</a>
+  <a href="#routes" onclick="closeMobile()">Routes</a>
+  <a href="#services" onclick="closeMobile()">Services</a>
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#faq" onclick="closeMobile()">FAQ</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+  <a href="#" onclick="openModal();closeMobile();return false;" style="color:var(--gold);font-weight:600;margin-top:8px">Book Now →</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-art">
+    <!-- Stars -->
+    <div class="stars" id="stars"></div>
+    <!-- Mountains -->
+    <svg class="mountain-svg" viewBox="0 0 1440 480" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#1a3254" stop-opacity="0.95"/>
+          <stop offset="100%" stop-color="#0d1e33" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#3b1220" stop-opacity="0.9"/>
+          <stop offset="100%" stop-color="#1a0810" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="mtn3" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#0d1825" stop-opacity="0.97"/>
+          <stop offset="100%" stop-color="#060f18" stop-opacity="1"/>
+        </linearGradient>
+        <linearGradient id="glow" x1="0.5" y1="0" x2="0.5" y2="1">
+          <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.22"/>
+          <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.04"/>
+          <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92"/>
+          <stop offset="100%" stop-color="#e8e0d0" stop-opacity="0.3"/>
+        </linearGradient>
+      </defs>
+      <!-- Sky glow at peaks -->
+      <ellipse cx="720" cy="0" rx="400" ry="120" fill="url(#glow)"/>
+      <!-- Far mountains -->
+      <polygon points="0,480 160,140 310,280 490,70 680,200 860,50 1040,180 1230,90 1440,220 1440,480" fill="url(#mtn1)"/>
+      <!-- Snow caps far -->
+      <polygon points="478,70 490,55 502,70" fill="url(#snow)"/>
+      <polygon points="848,50 860,32 872,50" fill="url(#snow)"/>
+      <polygon points="1218,90 1230,72 1242,90" fill="url(#snow)"/>
+      <!-- Mid mountains -->
+      <polygon points="0,480 100,240 250,360 400,160 560,300 720,120 880,260 1040,140 1200,270 1360,170 1440,240 1440,480" fill="url(#mtn2)" opacity="0.88"/>
+      <polygon points="708,120 720,100 732,120" fill="url(#snow)"/>
+      <polygon points="388,160 400,140 412,160" fill="url(#snow)"/>
+      <!-- Foreground hills -->
+      <polygon points="0,480 100,380 220,400 340,360 460,395 580,355 700,385 820,350 940,380 1060,355 1180,378 1300,360 1440,380 1440,480" fill="url(#mtn3)" opacity="0.97"/>
+      <!-- Road/path glow -->
+      <path d="M680 480 Q720 420 760 480" fill="#D4AF37" opacity="0.04"/>
+    </svg>
+  </div>
+  <div class="hero-gradient"></div>
+  <div class="hero-inner">
+    <div class="hero-badge"><span>🏔 Daily Premium Service &nbsp;·&nbsp; Bangalore ↔ Nepal</span></div>
+    <h1 class="hero-title">Travel Far,<br><em>Feel Like Home.</em></h1>
+    <p class="hero-sub">Premium daily bus service connecting the Nepali community of Bangalore with their homeland — across three sacred border corridors.</p>
+    <div class="trust-chips">
+      <span class="chip">Safe Travel</span>
+      <span class="chip">Experienced Drivers</span>
+      <span class="chip">Daily Service</span>
+      <span class="chip">24×7 Support</span>
+      <span class="chip">GPS Tracked Buses</span>
+    </div>
+    <div class="bw">
+      <div class="bw-title">Find Your Bus</div>
+      <div class="bw-grid">
+        <div class="fg">
+          <label>From</label>
+          <select id="w-from">
+            <option>Bangalore (BTM Layout)</option>
+            <option>Bangalore (Koramangala)</option>
+            <option>Bangalore (Electronic City)</option>
+            <option>Bangalore (Whitefield)</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>To</label>
+          <select id="w-to">
+            <option>Dhangadhi (via Gauriphanta)</option>
+            <option>Nepalgunj (via Rupaidiha)</option>
+            <option>Nepal Border (via Paliya)</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label>Travel Date</label>
+          <input type="date" id="w-date">
+        </div>
+        <div class="fg">
+          <label>Passengers</label>
+          <select>
+            <option>1</option><option>2</option><option>3</option><option>4+</option>
+          </select>
+        </div>
+        <button class="sb" onclick="openModal()">Search Buses</button>
+      </div>
+    </div>
+    <div class="hero-btns">
+      <a class="hbtn hbtn-call" href="tel:+919035514248">📞&nbsp; Call Us</a>
+      <a class="hbtn hbtn-wa" href="https://wa.me/919035514248">💬&nbsp; WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ROUTES -->
+<section class="sec-routes" id="routes">
+  <div class="container">
+    <div class="s-label">Our Routes</div>
+    <h2 class="s-title">Three Sacred<br>Corridors to Nepal</h2>
+    <div class="divider"></div>
+    <p class="s-sub">Daily departures on all three routes. Driver rotations ensure you're always with a rested, route-familiar professional.</p>
+    <div class="routes-grid" style="margin-top:40px">
+      <div class="rc" onclick="openModal()">
+        <div class="rc-img">
+          <div class="rc-img-bg" style="background:linear-gradient(145deg,#102340,#6B1023)"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.12" viewBox="0 0 400 188" preserveAspectRatio="none">
+            <polygon points="0,188 80,70 160,130 240,40 320,100 400,60 400,188" fill="white"/>
+          </svg>
+          <div class="rc-path">
+            <div class="cities">Bangalore &rarr; Dhangadhi</div>
+            <div class="via">via Gauriphanta Border &nbsp;·&nbsp; ~36 hours</div>
+          </div>
+        </div>
+        <div class="rc-body">
+          <div class="stops">
+            <span class="stop">BTM Layout</span><span class="stop">Koramangala</span>
+            <span class="stop">Hyderabad</span><span class="stop">Gauriphanta</span><span class="stop">Dhangadhi</span>
+          </div>
+          <div class="rc-foot">
+            <div class="price">₹2,200 <sub>/ seat</sub></div>
+            <button class="rc-book">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="rc" onclick="openModal()">
+        <div class="rc-img">
+          <div class="rc-img-bg" style="background:linear-gradient(145deg,#1a2d4a,#2d4a6b)"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.12" viewBox="0 0 400 188" preserveAspectRatio="none">
+            <polygon points="0,188 60,90 120,140 200,55 280,120 360,80 400,100 400,188" fill="white"/>
+          </svg>
+          <div class="rc-path">
+            <div class="cities">Bangalore &rarr; Nepalgunj</div>
+            <div class="via">via Rupaidiha Border &nbsp;·&nbsp; ~38 hours</div>
+          </div>
+        </div>
+        <div class="rc-body">
+          <div class="stops">
+            <span class="stop">Electronic City</span><span class="stop">Nagpur</span>
+            <span class="stop">Lucknow</span><span class="stop">Rupaidiha</span><span class="stop">Nepalgunj</span>
+          </div>
+          <div class="rc-foot">
+            <div class="price">₹2,400 <sub>/ seat</sub></div>
+            <button class="rc-book">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="rc" onclick="openModal()">
+        <div class="rc-img">
+          <div class="rc-img-bg" style="background:linear-gradient(145deg,#2d1520,#4a2030)"></div>
+          <svg style="position:absolute;inset:0;width:100%;height:100%;opacity:0.12" viewBox="0 0 400 188" preserveAspectRatio="none">
+            <polygon points="0,188 50,100 110,150 190,65 270,110 350,70 400,90 400,188" fill="white"/>
+          </svg>
+          <div class="rc-path">
+            <div class="cities">Bangalore &rarr; Nepal Border</div>
+            <div class="via">via Paliya Border &nbsp;·&nbsp; ~34 hours</div>
+          </div>
+        </div>
+        <div class="rc-body">
+          <div class="stops">
+            <span class="stop">Whitefield</span><span class="stop">Warangal</span>
+            <span class="stop">Kanpur</span><span class="stop">Paliya</span><span class="stop">Nepal Border</span>
+          </div>
+          <div class="rc-foot">
+            <div class="price">₹2,100 <sub>/ seat</sub></div>
+            <button class="rc-book">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FLEET -->
+<section id="fleet">
+  <div class="container">
+    <div class="s-label">Our Fleet</div>
+    <h2 class="s-title">Choose Your Comfort</h2>
+    <div class="divider"></div>
+    <div class="fleet-grid" style="margin-top:40px">
+      <div class="fc">
+        <div class="fc-hdr" style="background:linear-gradient(145deg,#102340,#6B1023)">
+          <div class="fc-badge">Most Popular</div>
+          <span class="fc-icon">🚌</span>
+          <div class="fc-name">A/C Sleeper Bus</div>
+          <div class="fc-tag">Full flat beds — climate-controlled cabin</div>
+        </div>
+        <div class="fc-body">
+          <div class="ams">
+            <span class="am">A/C</span><span class="am">Full Sleeper</span><span class="am">Blanket</span>
+            <span class="am">Charging Port</span><span class="am">Reading Light</span><span class="am">Water Bottle</span><span class="am">GPS Tracked</span>
+          </div>
+          <div class="fc-price">₹2,200–2,800 <sub>per seat</sub></div>
+          <button class="fc-btn" onclick="openModal()">Book A/C Sleeper</button>
+        </div>
+      </div>
+      <div class="fc">
+        <div class="fc-hdr" style="background:linear-gradient(145deg,#1a3040,#2d4a2a)">
+          <span class="fc-icon">🚌</span>
+          <div class="fc-name">Non-A/C Sleeper</div>
+          <div class="fc-tag">Comfortable semi-sleeper berths</div>
+        </div>
+        <div class="fc-body">
+          <div class="ams">
+            <span class="am">Semi-Sleeper</span><span class="am">Fan</span><span class="am">Curtain</span>
+            <span class="am">Charging Port</span><span class="am">Storage Rack</span><span class="am">GPS Tracked</span>
+          </div>
+          <div class="fc-price">₹1,600–2,000 <sub>per seat</sub></div>
+          <button class="fc-btn" onclick="openModal()">Book Non-A/C Sleeper</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec-services" id="services">
+  <div class="container">
+    <div class="s-label">What We Offer</div>
+    <h2 class="s-title">More Than Just a Bus Ride</h2>
+    <div class="divider"></div>
+    <div class="svc-grid" style="margin-top:40px">
+      <div class="sv"><div class="sv-icon">❄️</div><div class="sv-name">A/C Sleeper Bus</div><div class="sv-desc">Climate-controlled comfort on every journey</div></div>
+      <div class="sv"><div class="sv-icon">🛏</div><div class="sv-name">Non-A/C Sleeper</div><div class="sv-desc">Budget-friendly sleeper berths</div></div>
+      <div class="sv"><div class="sv-icon">📱</div><div class="sv-name">Online Booking</div><div class="sv-desc">Book from anywhere, any time</div></div>
+      <div class="sv"><div class="sv-icon">✈️</div><div class="sv-name">Domestic Flights</div><div class="sv-desc">Domestic flight ticket booking assistance</div></div>
+      <div class="sv"><div class="sv-icon">🌍</div><div class="sv-name">International Flights</div><div class="sv-desc">International travel booking support</div></div>
+      <div class="sv"><div class="sv-icon">🚖</div><div class="sv-name">24×7 Taxi</div><div class="sv-desc">Airport transfers and city taxi service</div></div>
+      <div class="sv"><div class="sv-icon">🔌</div><div class="sv-name">Charging Points</div><div class="sv-desc">USB and power sockets at every berth</div></div>
+      <div class="sv"><div class="sv-icon">👨‍✈️</div><div class="sv-name">Expert Drivers</div><div class="sv-desc">Trained, vetted, route-experienced</div></div>
+      <div class="sv"><div class="sv-icon">🧹</div><div class="sv-name">Clean Buses</div><div class="sv-desc">Sanitised before every departure</div></div>
+      <div class="sv"><div class="sv-icon">📞</div><div class="sv-name">24×7 Support</div><div class="sv-desc">Helpline active throughout your journey</div></div>
+      <div class="sv"><div class="sv-icon">👨‍👩‍👧</div><div class="sv-name">Family-Friendly</div><div class="sv-desc">Safe and welcoming for all ages</div></div>
+      <div class="sv"><div class="sv-icon">🛡</div><div class="sv-name">Safe Journey</div><div class="sv-desc">GPS tracked, insured, fully reliable</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec-about" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <div class="about-frame">
+          <div class="about-ornament">
+            <svg viewBox="0 0 360 360" width="300" height="300">
+              <circle cx="180" cy="180" r="160" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-dasharray="5,10"/>
+              <circle cx="180" cy="180" r="120" fill="none" stroke="#D4AF37" stroke-width="0.6"/>
+              <polygon points="180,60 218,148 320,148 239,203 268,292 180,240 92,292 121,203 40,148 142,148" fill="none" stroke="#D4AF37" stroke-width="0.8"/>
+              <circle cx="180" cy="180" r="8" fill="none" stroke="#D4AF37" stroke-width="1"/>
+            </svg>
+          </div>
+          <div class="about-center">
+            <div class="about-np">॥ जय दुर्गा भवानी ॥</div>
+            <div class="about-en">Guided by Faith · Driven by Trust</div>
+          </div>
+        </div>
+        <div class="stats-strip">
+          <div class="st"><div class="st-num">5+</div><div class="st-lbl">Years Active</div></div>
+          <div class="st"><div class="st-num">50K+</div><div class="st-lbl">Passengers</div></div>
+          <div class="st"><div class="st-num">3</div><div class="st-lbl">Border Routes</div></div>
+        </div>
+      </div>
+      <div class="abt-txt">
+        <div class="s-label">Our Story</div>
+        <h2 class="s-title">Built on Faith,<br>Sustained by Trust</h2>
+        <div class="divider"></div>
+        <p class="s-sub">Jai Durga Bhavani Tours & Travels was born from a simple truth — thousands of Nepali families in Bangalore deserved a travel service they could trust completely, with their lives and their loved ones'.</p>
+        <p class="s-sub" style="margin-top:16px;color:rgba(255,255,255,0.55)">We run daily services across three Bangalore–Nepal routes with experienced drivers, safe buses, and the warmth of a community that understands: your journey is also a homecoming.</p>
+        <div class="quote-card">
+          <p>"Bangalore has become a second home for our community. We exist to make the journey between these two homes — safe, dignified, and deeply memorable."</p>
+          <cite>— Our Commitment</cite>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec-faq" id="faq">
+  <div class="container" style="text-align:center">
+    <div class="s-label">Common Questions</div>
+    <h2 class="s-title">Frequently Asked Questions</h2>
+    <div class="divider" style="margin:18px auto 0"></div>
+  </div>
+  <div class="container">
+    <div class="faq-wrap">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What documents do I need for cross-border travel? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">Indian citizens need a valid government-issued photo ID (Aadhaar, Passport, or Voter ID). Nepali nationals need a valid citizenship certificate or passport. Children below 12 travelling with parents need a birth certificate or school ID. Always carry original documents — photocopies are not accepted at borders.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What is the cancellation and refund policy? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">Cancellations made 48+ hours before departure: 90% refund. 24–48 hours before: 70% refund. Less than 24 hours: 50% refund. No-shows receive no refund. Refunds are processed within 5–7 business days to the original payment method.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">How much luggage am I allowed to carry? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">Each passenger is allowed up to 20 kg of check-in luggage and one small carry-on bag (under 7 kg). Extra luggage is charged at ₹50 per kg. Fragile or oversized items must be declared at booking. We do not accept livestock or hazardous materials.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Where are the boarding points in Bangalore? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">We have boarding points at BTM Layout (main office at 340 Jakkasandra Extension), Koramangala 1st Block, Electronic City Phase 1, and Whitefield. Our team will WhatsApp you the exact boarding point coordinates 24 hours before departure.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Is the bus GPS tracked? How can I share my location with family? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">Yes. All buses are GPS tracked. Once your journey begins, WhatsApp our support number for real-time location updates. A live tracking link will also be sent to your registered number 1 hour before departure, which you can share with family.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">Do you offer child tickets or senior citizen discounts? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">Children below 5 years travel free if seated on a parent's lap. Children aged 5–12 receive a 30% discount. Senior citizens above 60 years receive a 10% discount on production of valid age proof at boarding. Discounts cannot be combined with coupon codes.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">What payment methods do you accept? <span class="fq-chev">▾</span></div>
+        <div class="faq-a">We accept UPI (Google Pay, PhonePe, Paytm), Debit/Credit Cards (Visa, Mastercard, RuPay), Net Banking, and Cash at our office. Online payments are processed securely via Razorpay. EMI options available on select cards for bookings above ₹5,000.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="s-label">Get In Touch</div>
+    <h2 class="s-title">We're Here for You,<br>Every Step of the Way</h2>
+    <div class="divider"></div>
+    <div class="contact-grid">
+      <div>
+        <div class="cc">
+          <h3>Office & Booking Contacts</h3>
+          <div class="ci">
+            <div class="ci-icon">📍</div>
+            <div class="ci-info">
+              <strong>Office Address</strong>
+              <a href="https://maps.google.com" target="_blank">BTM BJP Office, 340, Jakkasandra Extension, 1st Block Koramangala, Bengaluru, Karnataka 560034</a>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-icon">👤</div>
+            <div class="ci-info">
+              <strong>Kishan Pujara</strong>
+              <a href="tel:+919035514248">+91 90355 14248</a>
+              <div class="btn-pair">
+                <a class="bsm bsm-call" href="tel:+919035514248">📞 Call</a>
+                <a class="bsm bsm-wa" href="https://wa.me/919035514248">💬 WhatsApp</a>
+              </div>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-icon">👤</div>
+            <div class="ci-info">
+              <strong>Punith Daulyal</strong>
+              <a href="tel:+918429272310">+91 84292 72310</a>
+              <div class="btn-pair">
+                <a class="bsm bsm-call" href="tel:+918429272310">📞 Call</a>
+                <a class="bsm bsm-wa" href="https://wa.me/918429272310">💬 WhatsApp</a>
+              </div>
+            </div>
+          </div>
+          <div class="ci">
+            <div class="ci-icon">⏰</div>
+            <div class="ci-info">
+              <strong>Support Hours</strong>
+              <a>24 × 7 — including holidays and travel days</a>
+            </div>
+          </div>
+        </div>
+        <div class="map-box">
+          <p>📍 BTM Layout, Bengaluru 560034<br><span style="font-size:11px;color:#a09080">Replace with Google Maps iframe in production</span></p>
+        </div>
+      </div>
+      <div class="cc">
+        <h3>Send Us a Message</h3>
+        <div class="ff"><label>Your Name</label><input type="text" placeholder="Full name"></div>
+        <div class="ff"><label>Phone Number</label><input type="tel" placeholder="+91 or +977"></div>
+        <div class="ff"><label>Email Address</label><input type="email" placeholder="yourname@email.com"></div>
+        <div class="ff">
+          <label>Subject</label>
+          <select>
+            <option>Booking Enquiry</option>
+            <option>Cancellation / Refund</option>
+            <option>Schedule Information</option>
+            <option>Complaint</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="ff"><label>Message</label><textarea rows="4" placeholder="How can we help you?"></textarea></div>
+        <button class="submit-btn" onclick="alert('Thank you! We will respond within 24 hours.')">Send Message</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="fb-en">Jai Durga Bhavani Tours & Travels</div>
+        <div class="fb-np">॥ जय दुर्गा भवानी ॥</div>
+        <p class="fb-desc">Connecting the Nepali community of Bangalore with their homeland since 2019. Daily premium bus services across three sacred border crossings.</p>
+        <div class="fb-tag">"Your Journey, Our Responsibility."</div>
+      </div>
+      <div class="fc-col">
+        <h4>Navigation</h4>
+        <a href="#home">Home</a>
+        <a href="#routes">Routes</a>
+        <a href="#fleet">Fleet</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="fc-col">
+        <h4>Services</h4>
+        <a href="#fleet">A/C Sleeper Bus</a>
+        <a href="#fleet">Non-A/C Sleeper</a>
+        <a href="#services">Domestic Flights</a>
+        <a href="#services">International Flights</a>
+        <a href="#services">Taxi Service</a>
+      </div>
+      <div class="fc-col">
+        <h4>Contact</h4>
+        <a href="tel:+919035514248">+91 90355 14248</a>
+        <a href="tel:+918429272310">+91 84292 72310</a>
+        <a href="https://wa.me/919035514248">WhatsApp Us</a>
+        <a href="#contact">Send a Message</a>
+        <a href="#contact">Office Location</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Jai Durga Bhavani Tours & Travels. All rights reserved.</p>
+      <p>BTM Layout, Bengaluru, Karnataka, India</p>
+    </div>
+  </div>
+</footer>
+
+<!-- BOOKING MODAL -->
+<div class="overlay" id="bmodal">
+  <div class="modal">
+    <div class="modal-hdr">
+      <h2>Search & Book</h2>
+      <button class="modal-close" onclick="closeModal()" aria-label="Close">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="ptabs">
+        <div class="ptab on" onclick="switchTab(this,'tab-search')">Search Results</div>
+        <div class="ptab" onclick="switchTab(this,'tab-mybookings')">My Bookings</div>
+      </div>
+
+      <!-- SEARCH RESULTS -->
+      <div id="tab-search">
+        <div class="result-info" id="r-info">Bangalore → Dhangadhi &nbsp;·&nbsp; <span id="rdate"></span> &nbsp;·&nbsp; 1 Passenger</div>
+
+        <div class="br" id="br1" onclick="pickBus(1)">
+          <div class="br-top">
+            <div class="br-times">
+              <div class="time-blk"><div class="t">06:00</div><div class="c">Bangalore, BTM</div></div>
+              <div class="dur-blk">
+                <div class="d">~36 hrs</div>
+                <div class="l">——————→</div>
+                <div style="font-size:11px;color:var(--gold);margin-top:2px">A/C Sleeper</div>
+              </div>
+              <div class="time-blk"><div class="t">18:00+1</div><div class="c">Dhangadhi</div></div>
+            </div>
+            <div class="br-price">₹2,400 <sub>per seat</sub></div>
+          </div>
+          <div class="atags">
+            <span class="atag">AC</span><span class="atag">Sleeper</span><span class="atag">Charging</span><span class="atag">Blanket</span><span class="atag" style="color:var(--maroon);font-weight:600">14 seats left</span>
+          </div>
+          <button class="bnb" onclick="showConf(event,2400)">Select Seats & Book</button>
+        </div>
+
+        <div class="br" id="br2" onclick="pickBus(2)">
+          <div class="br-top">
+            <div class="br-times">
+              <div class="time-blk"><div class="t">19:00</div><div class="c">Bangalore, BTM</div></div>
+              <div class="dur-blk">
+                <div class="d">~38 hrs</div>
+                <div class="l">——————→</div>
+                <div style="font-size:11px;color:var(--text-muted);margin-top:2px">Non-A/C Sleeper</div>
+              </div>
+              <div class="time-blk"><div class="t">09:00+2</div><div class="c">Dhangadhi</div></div>
+            </div>
+            <div class="br-price">₹1,700 <sub>per seat</sub></div>
+          </div>
+          <div class="atags">
+            <span class="atag">Fan</span><span class="atag">Sleeper</span><span class="atag">Charging</span><span class="atag" style="color:#2e8b4a;font-weight:600">23 seats left</span>
+          </div>
+          <button class="bnb" onclick="showConf(event,1700)">Select Seats & Book</button>
+        </div>
+
+        <!-- PASSENGER FORM -->
+        <div class="conf" id="conf-panel">
+          <h3>Passenger & Payment Details</h3>
+          <div class="conf-grid">
+            <div class="ff"><label>Full Name</label><input type="text" placeholder="As per ID document"></div>
+            <div class="ff"><label>Mobile Number</label><input type="tel" placeholder="+91 or +977"></div>
+            <div class="ff"><label>Email Address</label><input type="email" placeholder="For e-ticket delivery"></div>
+            <div class="ff"><label>ID Document</label>
+              <select>
+                <option>Aadhaar Card</option>
+                <option>Passport</option>
+                <option>Voter ID</option>
+                <option>Nepal Citizenship Certificate</option>
+              </select>
+            </div>
+          </div>
+          <div class="ff"><label>Coupon Code (optional)</label><input type="text" placeholder="Enter coupon code if you have one"></div>
+          <div class="conf-foot">
+            <div class="total-amt">
+              <div class="lbl">Total Amount</div>
+              <div class="num" id="total-price">₹2,400</div>
+            </div>
+            <button class="sb" onclick="showSuccess()">Pay via Razorpay →</button>
+          </div>
+        </div>
+
+        <!-- SUCCESS -->
+        <div class="succ" id="succ-panel">
+          <span class="succ-icon">✅</span>
+          <h3>Booking Confirmed!</h3>
+          <p>Your PNR: <strong style="color:var(--maroon);font-family:'Cinzel',serif">JDB-2025-8471</strong></p>
+          <p>Departure: 06:00 · Bangalore BTM &rarr; Dhangadhi</p>
+          <p style="margin-top:6px;font-size:13px">E-ticket sent to your registered email and WhatsApp number.</p>
+          <div class="succ-btns">
+            <button class="sb">⬇ Download Ticket PDF</button>
+            <button onclick="closeModal()" style="background:var(--ivory);color:var(--navy);border:1.5px solid #ddd;border-radius:9px;padding:12px 22px;font-size:14px;cursor:pointer;font-family:'Inter',sans-serif;font-weight:500">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MY BOOKINGS -->
+      <div id="tab-mybookings" style="display:none">
+        <p style="font-size:14px;color:var(--text-muted);margin-bottom:20px;line-height:1.7">Enter your PNR number or the mobile number you used to book to retrieve your ticket, check status, or request a cancellation.</p>
+        <div class="ff"><label>PNR Number or Mobile</label><input type="text" placeholder="e.g. JDB-2025-1234 or +91 9876543210"></div>
+        <button class="sb" onclick="alert('Booking lookup is live in production — connects to the booking database.')">Find My Booking</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Stars
+(function(){
+  const s=document.getElementById('stars');
+  for(let i=0;i<80;i++){
+    const d=document.createElement('div');
+    d.className='star';
+    const sz=Math.random()*2+1;
+    d.style.cssText=`width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*60}%;animation-delay:${Math.random()*4}s;animation-duration:${2+Math.random()*3}s`;
+    s.appendChild(d);
+  }
+})();
+
+// Date default
+const t=new Date();
+document.getElementById('w-date').value=t.toISOString().split('T')[0];
+document.getElementById('rdate').textContent=t.toDateString();
+
+function openModal(){
+  document.getElementById('bmodal').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function closeModal(){
+  document.getElementById('bmodal').classList.remove('open');
+  document.body.style.overflow='';
+  document.getElementById('conf-panel').style.display='none';
+  document.getElementById('succ-panel').style.display='none';
+  document.querySelectorAll('.br').forEach(b=>b.classList.remove('sel'));
+}
+function toggleMobile(){
+  document.getElementById('mmenu').classList.toggle('open');
+}
+function closeMobile(){
+  document.getElementById('mmenu').classList.remove('open');
+}
+function switchTab(el,tab){
+  document.querySelectorAll('.ptab').forEach(t=>t.classList.remove('on'));
+  el.classList.add('on');
+  document.getElementById('tab-search').style.display=tab==='tab-search'?'block':'none';
+  document.getElementById('tab-mybookings').style.display=tab==='tab-mybookings'?'block':'none';
+}
+function toggleFaq(el){
+  const a=el.nextElementSibling;
+  const open=a.classList.contains('open');
+  document.querySelectorAll('.faq-a.open').forEach(x=>x.classList.remove('open'));
+  document.querySelectorAll('.faq-q.open').forEach(x=>x.classList.remove('open'));
+  if(!open){a.classList.add('open');el.classList.add('open');}
+}
+function pickBus(n){
+  document.querySelectorAll('.br').forEach(b=>b.classList.remove('sel'));
+  document.getElementById('br'+n).classList.add('sel');
+}
+function showConf(e,price){
+  e.stopPropagation();
+  document.getElementById('conf-panel').style.display='block';
+  document.getElementById('succ-panel').style.display='none';
+  document.getElementById('total-price').textContent='₹'+price.toLocaleString('en-IN');
+  setTimeout(()=>document.getElementById('conf-panel').scrollIntoView({behavior:'smooth',block:'nearest'}),50);
+}
+function showSuccess(){
+  document.getElementById('conf-panel').style.display='none';
+  document.getElementById('succ-panel').style.display='block';
+  setTimeout(()=>document.getElementById('succ-panel').scrollIntoView({behavior:'smooth',block:'nearest'}),50);
+}
+document.getElementById('bmodal').addEventListener('click',function(e){
+  if(e.target===this)closeModal();
+});
+// Smooth scroll nav
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',function(e){
+    const target=document.querySelector(this.getAttribute('href'));
+    if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
